@@ -105,7 +105,7 @@ async function login(e) {
 }
 async function register(e) {
   e.preventDefault();
-  const rol= document.getElementById("rol");
+  const rol= document.getElementById("rol").value;
   const username = document.getElementById("username").value;
   const password = document.getElementById("password").value;
   try {
