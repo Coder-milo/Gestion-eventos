@@ -1,0 +1,122 @@
+{
+  "usuarios": [
+    {
+      "id": "1",
+      "username": "admin",
+      "password": "admin123",
+      "rol": "admin"
+    },
+    {
+      "id": "24",
+      "username": "user",
+      "password": "user123",
+      "rol": "admin"
+    },
+    {
+      "id": "2",
+      "username": "visitante1",
+      "password": "visitante123",
+      "rol": "visitante"
+    },
+    {
+      "id": "8cc3",
+      "rol": "visitante",
+      "username": "camilo",
+      "password": "12345"
+    },
+    {
+      "id": "fa7f",
+      "rol": "rol",
+      "username": "camilo",
+      "password": "12"
+    },
+    {
+      "id": "fbb1",
+      "rol": "rol",
+      "username": "camilo",
+      "password": "123"
+    },
+    {
+      "id": "9409",
+      "rol": "rol",
+      "username": "camilo",
+      "password": "123"
+    },
+    {
+      "id": "9ff3",
+      "rol": "rol",
+      "username": "camilo",
+      "password": "123"
+    },
+    {
+      "id": "cb76",
+      "rol": null,
+      "username": "camilo",
+      "password": "123456789"
+    },
+    {
+      "id": "5b5d",
+      "rol": null,
+      "username": "camilo",
+      "password": "123456789"
+    }
+  ],
+  "eventos": [
+    {
+      "id": "76b6",
+      "titulo": "Java",
+      "instructor": "Moises",
+      "capacidad": "50"
+    },
+    {
+      "id": "7f0e",
+      "titulo": "Python",
+      "instructor": "Moises",
+      "capacidad": "30"
+    },
+    {
+      "titulo": "Node.js",
+      "instructor": "Moises",
+      "capacidad": "100",
+      "id": "ef6d"
+    },
+    {
+      "id": "6ced",
+      "titulo": "C#",
+      "instructor": "Moises",
+      "capacidad": "1"
+    }
+  ],
+  "inscripciones": [
+    {
+      "id": "1",
+      "eventoId": 1,
+      "usuarioId": 2
+    },
+    {
+      "id": "84dd",
+      "eventoId": 8,
+      "usuarioId": 2
+    },
+    {
+      "id": "bc2c",
+      "eventoId": 2,
+      "usuarioId": 2
+    },
+    {
+      "id": "7fde",
+      "eventoId": "76b6",
+      "usuarioId": "2"
+    },
+    {
+      "id": "32d3",
+      "eventoId": "7f0e",
+      "usuarioId": "2"
+    },
+    {
+      "id": "9053",
+      "eventoId": "ef6d",
+      "usuarioId": "8cc3"
+    }
+  ]
+}

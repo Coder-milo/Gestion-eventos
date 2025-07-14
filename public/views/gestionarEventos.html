@@ -1,0 +1,20 @@
+<h2>Manage Events</h2>
+<form id="formEventos">
+  <input type="text" id="titulo" placeholder="Qualification" required>
+  <input type="text" id="instructor" placeholder="Lecturer" required>
+  <input type="number" id="capacidad" placeholder="Ability" required>
+  <button type="submit">Create event</button>
+</form>
+<ul id="listaGestionEventos"></ul>
+
+<!-- Modal para editar evento -->
+<div id="modalEditarEvento" style="display:none;">
+  <form id="formEditarEvento">
+    <input type="hidden" id="editId">
+    <input type="text" id="editTitulo" placeholder="Qualification" required>
+    <input type="text" id="editInstructor" placeholder="Lecturer" required>
+    <input type="number" id="editCapacidad" placeholder="Ability" required>
+    <button type="submit">Save</button>
+    <button type="button" id="cancelarEditar">Cancel</button>
+  </form>
+</div>
