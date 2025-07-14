@@ -1,5 +1,19 @@
+<h2>Register</h2>
 <form id="registerForm">
-  <input type="text" id="username" required>
-  <input type="password" id="password" required>
-  <button type="submit">Register</button>
+  <label for="username">Username:</label><br />
+  <input type="text" id="username" required /><br /><br />
+
+  <label for="password">Password:</label><br />
+  <input type="password" id="password" required /><br /><br />
+
+  <label for="rol">Role:</label><br />
+  <select id="rol" required>
+    <option value="">Select a role</option>
+    <option value="admin">Administrator</option>
+    <option value="visitante">Visitor</option>
+  </select><br /><br />
+
+  <button type="submit">Sign Up</button>
 </form>
+
+<p>Already have an account? <a href="#/">Log In</a></p>
