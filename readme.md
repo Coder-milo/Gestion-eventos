@@ -47,6 +47,14 @@ http://localhost:3000/inscripciones
 5. Click **Register** to log in.
 6. Once you log in as a visitor or administrator, you can use the program's features.
 
+7. If you don't have the Vite server installed globally, when exporting the file, follow these steps:
+Open another terminal
+node -v
+npm -v
+npm install
+npx Vite
+npm run dev
+
 ## Notes
 
 - Data saved in `localStorage` persists after closing or reloading the page.
